@@ -23,10 +23,23 @@ body {
 }
 
 .mainText h1 {
-    font-size: 8rem;
+    font-size: 2rem;
+    text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .mainText .primary-text {
     color: rgb(179, 3, 3);
+}
+
+@media only screen and (min-width: 60rem) {
+    .mainText h1 {
+        font-size: 6rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .mainText h1 {
+        font-size: 8rem;
+    }
 }
