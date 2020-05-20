@@ -24,7 +24,7 @@ body {
 }
 
 .mainText h1 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -34,7 +34,8 @@ body {
 }
 
 .subquote {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    text-align: center;
     padding: 2rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
@@ -48,10 +49,18 @@ body {
     .mainText h1 {
         font-size: 6rem;
     }
+
+    .subquote {
+        font-size: 1.5rem;
+    }
 }
 
 @media only screen and (min-width: 768px) {
     .mainText h1 {
         font-size: 8rem;
+    }
+
+    .subquote {
+        font-size: 2rem;
     }
 }
